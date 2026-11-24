@@ -1,0 +1,53 @@
+{
+  "id": "./",
+  "name": "대리복귀 · 밤길 복귀 도우미",
+  "short_name": "대리복귀",
+  "description": "대리기사 밤길 복귀 도우미 — 실제 GPS 기준 막차·심야버스, 반납존, 주변 지도 1탭 연결, 수입차 시동 가이드, 하루 정산.",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "background_color": "#070B11",
+  "theme_color": "#070B11",
+  "categories": ["navigation", "travel", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "주변 지도 열기",
+      "short_name": "주변",
+      "description": "내 위치 기준 카카오맵 열기",
+      "url": "./index.html#/around",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "오늘 정산",
+      "short_name": "정산",
+      "description": "오늘 매출·교통비 정산",
+      "url": "./index.html#/settle",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
